@@ -66,17 +66,19 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 773px;
-  height: 476px;
-  background: #444753;
   border-radius: 5px;
+  background-color: #F2F5F8;
 }
 
 .people-list {
+  background: #444753;
   width: 260px;
-  float: left;
-  overflow-y: scroll;
-  height: 476px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  overflow-y: auto;
 }
 .people-list .search {
   padding: 20px;
@@ -96,7 +98,6 @@ body {
 }
 .people-list ul {
   padding: 20px;
-  height: 391px;
 }
 .people-list ul li {
   padding-bottom: 20px;
@@ -116,8 +117,12 @@ body {
 }
 
 .chat {
-  width: 513px;
-  float: left;
+  position: absolute;
+  top: 0;
+  left: 260px;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
   background: #F2F5F8;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -126,6 +131,10 @@ body {
 .chat .chat-header {
   padding: 20px;
   border-bottom: 2px solid white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 .chat .chat-header img {
   float: left;
@@ -149,10 +158,14 @@ body {
   margin-top: 12px;
 }
 .chat .chat-history {
+  position: absolute;
+  top: 97;
+  left: 0;
+  right: 0;
+  bottom: 136;
   padding: 30px 30px 20px;
   border-bottom: 2px solid white;
   overflow-y: scroll;
-  height: 244px;
 }
 .chat .chat-history .message-data {
   margin-bottom: 15px;
@@ -195,6 +208,10 @@ body {
   left: 93%;
 }
 .chat .chat-message {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
   padding: 30px;
 }
 .chat .chat-message textarea {
@@ -383,7 +400,7 @@ body {
 
       <div class="chat-about">
         <div class="chat-with">Chat with Vincent Porter</div>
-        <div class="chat-num-messages">already 1 902 messages</div>
+        <div class="chat-num-messages">902 messages</div>
       </div>
       <i class="fa fa-star"></i>
     </div> <!-- end chat-header -->

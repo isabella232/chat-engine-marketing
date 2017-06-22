@@ -96,7 +96,7 @@
     }
     /*--------slider banner responsive---------*/
     .slide-banner{
-        height: 800px;
+        /*height: 800px;*/
     }
     .slide-banner .page-title-img{
         width: 56%;
@@ -194,7 +194,7 @@
     .product-single{
         padding-top: 20px;
     }
-    
+
     .lrg-text .mchimp-errmessage, .lrg-text .mchimp-sucmessage{
         bottom: -35px;
     }
@@ -293,7 +293,7 @@
     .graphical-area {
         height: 625px;
     }
-    
+
     /*-------features-area3 responsive css--------*/
     .features-area3 .tab-content .tab-pane .tab-text{
         padding-right: 0px;
@@ -419,7 +419,7 @@
     .sngle-pr-2 .single-pr-content{
         padding-top: 0px;
     }
-    
+
     /*----blog-area responsive-------*/
     .blog-sidebar {
         padding-left: 0px;
@@ -515,7 +515,7 @@
         box-shadow: none;
         background: rgb(58,123,213);
     }
-    
+
     /*=========new header responsive===========*/
     .navbar.navbar-default .nav-right li a{
         top: 3px;
@@ -653,7 +653,7 @@
         margin-bottom: 20px;
         line-height: 35px;
     }
-    
+
     /*-------graphical-area responsive css--------*/
     .graphical-area {
         height: 506px;
@@ -942,7 +942,7 @@
         width: 290px;
     }
     .slide-banner {
-        height: 740px;
+        /*height: 740px;*/
     }
     .seo-banner {
         padding-top: 250px;
@@ -1030,7 +1030,7 @@
         line-height: 45px;
     }
     .ebook-contain .ebook-btn + .ebook-btn{
-        margin-left: 0px; 
+        margin-left: 0px;
         margin-top: 10px;
     }
     .hero-section-ebook {
@@ -1141,7 +1141,7 @@
         bottom: 0;
     }
     .slide-banner {
-        height: 620px;
+        /*height: 620px;*/
         padding-top: 133px;
     }
     .startup-slider{
@@ -1252,7 +1252,7 @@
         padding: 64px 0px 80px;
     }
     .priceing-tab {
-        padding: 50px 0px 0px;   
+        padding: 50px 0px 0px;
     }
     .price {
         max-width: 400px;
@@ -1763,7 +1763,7 @@
     /*-------slider two responsive--------*/
     .slide-banner.slider2 {
         padding-top: 58px;
-        height: 850px;
+        /*height: 850px;*/
     }
     .slider-text p {
         font-size: 16px;
@@ -1853,7 +1853,7 @@
         font-size: 23px;
         padding-bottom: 28px;
     }
-    
+
     .features-area3 .tab-content .tab-pane .tab-text h2{
         font-size: 21px;
         line-height: 30px;
@@ -1867,7 +1867,7 @@
         display: none;
     }
     .slide-banner{
-        height: 545px;
+        /*height: 545px;*/
         padding-top: 0px;
     }
     .lrg-text{

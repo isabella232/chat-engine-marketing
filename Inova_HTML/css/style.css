@@ -31,8 +31,8 @@ Table of Content:
 12/ features
 13/ video
 14/ pricing
-15/ contact 
-16/ footer 
+15/ contact
+16/ footer
 =====================================================================*/
 /*=== fonts ====*/
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Open+Sans:300,300i,400,600,600i,700");
@@ -768,7 +768,7 @@ section.row, header.row, footer.row {
   padding-top: 200px;
   position: relative;
   z-index: 1;
-  height: 100vh;
+  /*height: 100vh;*/
 }
 .slide-banner .page-title-img {
   position: absolute;
@@ -779,7 +779,7 @@ section.row, header.row, footer.row {
 .slide-banner .page-title-img img {
   max-width: 100%;
 }
-
+/*
 .lrg-text {
   width: 100%;
   margin: 0 auto;
@@ -789,7 +789,7 @@ section.row, header.row, footer.row {
   top: 38%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+}*/
 .lrg-text h2 {
   font: 700 42px/60px "Open Sans", sans-serif;
   padding-bottom: 14px;
@@ -6988,3 +6988,13 @@ a.settingBtn i {
 /*====================================================*/
 
 /*# sourceMappingURL=style.css.map */
+
+/* chat engine mods */
+
+.lrg-text {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 40px;
+}
