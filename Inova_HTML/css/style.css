@@ -6998,3 +6998,11 @@ a.settingBtn i {
   color: #fff;
   margin-bottom: 40px;
 }
+
+.call-action-area:after {
+    background: url(../chat-engine/engine.jpg);
+}
+
+.support-area {
+    background: url(../chat-engine/server.jpg);
+}
