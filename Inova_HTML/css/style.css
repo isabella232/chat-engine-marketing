@@ -7006,3 +7006,11 @@ a.settingBtn i {
 .support-area {
     background: url(../chat-engine/server.jpg);
 }
+
+.graphical-area {
+  height: auto;
+  padding-bottom: 105px;
+}
+.workseverywhere {
+  padding: 105px 0px;
+}
